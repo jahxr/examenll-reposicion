@@ -14,5 +14,6 @@ public class PosicionesController {
     @PostMapping("/crear")
     public Equipos crear(@RequestBody Posiciones posiciones){
         return posiciones;
+        
     }
 }

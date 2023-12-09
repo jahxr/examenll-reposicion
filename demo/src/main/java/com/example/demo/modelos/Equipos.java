@@ -2,7 +2,11 @@ package com.example.demo.modelos;
 
 import org.springframework.boot.context.properties.bind.Name;
 import org.springframework.stereotype.Indexed;
-
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
